@@ -16,4 +16,8 @@
 
 #pragma once
 
+<<<<<<< HEAD:keyboards/keychron/bluetooth/lpm_stm32l432.h
 typedef enum { PM_RUN, PM_LOW_POWER_RUN, PM_SLEEP, PM_LOW_POWER_SLEEP, PM_STOP0, PM_STOP1, PM_STOP2, PM_STANDBY_WITH_RAM, PM_STANDBY, PM_SHUTDOWN } pm_t;
+=======
+#define LED_LAYERS_PIN F0
+>>>>>>> master:keyboards/aeboards/ext65/rev3/config.h

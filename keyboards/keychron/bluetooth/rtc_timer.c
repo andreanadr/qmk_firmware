@@ -16,10 +16,15 @@
  
 #include "hal.h"
 
+<<<<<<< HEAD:keyboards/keychron/bluetooth/rtc_timer.c
 #if (HAL_USE_RTC)
+=======
+#pragma once
+>>>>>>> master:keyboards/keyhive/uno/rev2/config.h
 
 #    include "rtc_timer.h"
 
+<<<<<<< HEAD:keyboards/keychron/bluetooth/rtc_timer.c
 void rtc_timer_init(void) {
     rtc_timer_clear();
 }
@@ -40,4 +45,9 @@ uint32_t rtc_timer_elapsed_ms(uint32_t last) {
     return TIMER_DIFF_32(rtc_timer_read_ms(), last);
 }
 
+=======
+#ifdef RGBLIGHT_ENABLE
+#define RGB_DI_PIN D1
+#define RGBLED_NUM 1
+>>>>>>> master:keyboards/keyhive/uno/rev2/config.h
 #endif

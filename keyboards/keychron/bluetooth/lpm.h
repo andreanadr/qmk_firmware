@@ -16,8 +16,16 @@
 
 #pragma once
 
+<<<<<<< HEAD:keyboards/keychron/bluetooth/lpm.h
 #ifndef RUN_MODE_PROCESS_TIME
 #    define RUN_MODE_PROCESS_TIME 1000
+=======
+
+// place overrides here
+#ifdef TAPPING_TERM
+#undef TAPPING_TERM
+#define TAPPING_TERM 150
+>>>>>>> master:keyboards/atreyu/keymaps/default/config.h
 #endif
 
 typedef enum { PM_RUN, PM_LOW_POWER_RUN, PM_SLEEP, PM_LOW_POWER_SLEEP, PM_STOP0, PM_STOP1, PM_STOP2, PM_STANDBY_WITH_RAM, PM_STANDBY, PM_SHUTDOWN } pm_t;

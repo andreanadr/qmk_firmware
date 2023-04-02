@@ -19,6 +19,7 @@
 
 #include_next <mcuconf.h>
 
+<<<<<<< HEAD:keyboards/keychron/q3_pro/mcuconf.h
 /* Set HCLK to 48 MHz as tradeoff of USB lowest clock and
  * lower power comsumption for bluetooth. Will use dynamic
  * clock when STM32L4 is supported in ChibiOS */
@@ -35,3 +36,7 @@
 #    undef STM32_SERIAL_USE_USART2
 #    define STM32_SERIAL_USE_USART2 TRUE
 #endif
+=======
+#undef STM32_PWM_USE_TIM3
+#define STM32_PWM_USE_TIM3 TRUE
+>>>>>>> master:keyboards/cannonkeys/crin/mcuconf.h

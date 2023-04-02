@@ -16,6 +16,32 @@
 
 #pragma once
 
+<<<<<<< HEAD:keyboards/keychron/k1_pro/ansi/rgb/config.h
+=======
+
+#define MATRIX_ROW_PINS { B1, F1, B2, B3, C6 }
+#define MATRIX_COL_PINS { F7, F6, F5, F4, B0, B7, D0, D1, D2, D3, D5, D4, D6, D7, B4}
+
+/* COL2ROW, ROW2COL*/
+#define DIODE_DIRECTION COL2ROW
+
+#define USB_SUSPEND_WAKEUP_DELAY 5000
+
+#define RGB_DI_PIN C7
+#define RGBLED_NUM 68
+#define RGB_MATRIX_LED_COUNT RGBLED_NUM
+#define RGBLIGHT_EFFECT_BREATHING
+#define RGBLIGHT_EFFECT_RAINBOW_MOOD
+#define RGBLIGHT_EFFECT_RAINBOW_SWIRL
+#define RGBLIGHT_EFFECT_SNAKE
+#define RGBLIGHT_EFFECT_KNIGHT
+#define RGBLIGHT_EFFECT_CHRISTMAS
+#define RGBLIGHT_EFFECT_STATIC_GRADIENT
+#define RGBLIGHT_EFFECT_RGB_TEST
+#define RGBLIGHT_EFFECT_ALTERNATING
+#define RGBLIGHT_EFFECT_TWINKLE
+
+>>>>>>> master:keyboards/kbdfans/kbd67/mkiirgb/v4/config.h
 #ifdef RGB_MATRIX_ENABLE
 /* RGB Matrix Driver Configuration */
 #    define DRIVER_COUNT 2

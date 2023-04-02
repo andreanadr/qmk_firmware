@@ -17,8 +17,20 @@
 #pragma once
 
 #include "quantum.h"
+<<<<<<< HEAD:keyboards/keychron/k8_pro/k8_pro.h
 #ifdef VIA_ENABLE
 #    include "via.h"
+=======
+
+#if   defined(KEYBOARD_keychron_q2_ansi)
+#    include "ansi.h"
+#elif defined(KEYBOARD_keychron_q2_ansi_encoder)
+#    include "ansi_encoder.h"
+#elif defined(KEYBOARD_keychron_q2_iso)
+#    include "iso.h"
+#elif defined(KEYBOARD_keychron_q2_iso_encoder)
+#    include "iso_encoder.h"
+>>>>>>> master:keyboards/keychron/q2/q2.h
 #endif
 
 #define ___ KC_NO

@@ -20,6 +20,7 @@
 #ifdef VIA_ENABLE
 #include "via.h"
 #endif
+<<<<<<< HEAD:keyboards/keychron/k13_pro/k13_pro.h
 
 #define ___ KC_NO
 
@@ -50,3 +51,5 @@ enum {
     BAT_LVL,
     NEW_SAFE_RANGE,
 };
+=======
+>>>>>>> master:keyboards/splitkb/kyria/kyria.h

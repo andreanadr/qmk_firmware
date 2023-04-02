@@ -1,9 +1,12 @@
+<<<<<<< HEAD:keyboards/keychron/k4_pro/rules.mk
 # MCU name
 MCU = STM32L432
 
 # Bootloader selection
 BOOTLOADER = stm32-dfu
 
+=======
+>>>>>>> master:keyboards/gmmk/pro/rev2/iso/rules.mk
 # Build Options
 #   change yes to no to disable
 #

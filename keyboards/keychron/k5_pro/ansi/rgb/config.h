@@ -16,6 +16,21 @@
 
 #pragma once
 
+<<<<<<< HEAD:keyboards/keychron/k5_pro/ansi/rgb/config.h
+=======
+
+#define MATRIX_ROW_PINS { B1, F1, B2, B3, C6 }
+#define MATRIX_COL_PINS { F7, F6, F5, F4, B0, B7, D0, D1, D2, D3, D5, D4, D6, D7, B4}
+
+/* COL2ROW, ROW2COL*/
+#define DIODE_DIRECTION COL2ROW
+
+#define USB_SUSPEND_WAKEUP_DELAY 5000
+
+#define RGB_DI_PIN C7
+#define RGB_MATRIX_LED_COUNT 68
+
+>>>>>>> master:keyboards/kbdfans/kbd67/mkiirgb_iso/config.h
 #ifdef RGB_MATRIX_ENABLE
 /* RGB Matrix Driver Configuration */
 #    define DRIVER_COUNT 2

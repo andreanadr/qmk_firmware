@@ -10,7 +10,11 @@
     },
     "encoder": {
         "rotary": [
+<<<<<<< HEAD:keyboards/keychron/q1_pro/iso_knob/info.json
             {"pin_a": "A10", "pin_b": "A0"}
+=======
+            {"pin_a": "A10", "pin_b": "A8"}
+>>>>>>> master:keyboards/keychron/q3/iso_encoder/info.json
         ]
     },
     "processor": "STM32L432",

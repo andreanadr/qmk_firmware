@@ -21,6 +21,7 @@
 #    include "via.h"
 #endif
 
+<<<<<<< HEAD:keyboards/keychron/q3_pro/q3_pro.h
 #ifdef VIA_ENABLE
 #    define USER_START USER00
 #else
@@ -47,3 +48,17 @@ enum {
     BAT_LVL,
     NEW_SAFE_RANGE
 };
+=======
+enum TWOx1800_keycodes {
+    ENC_BTN1 = QK_KB_0,
+    ENC_BTN2,
+    ENC_BTN3,
+    ENC_BTN4,
+};
+
+// Encoder update function that returns true/false
+bool encoder_update_keymap(uint8_t index, bool clockwise);
+
+// Encoder button combo check
+void check_encoder_buttons(void);
+>>>>>>> master:keyboards/clueboard/2x1800/2019/2019.h

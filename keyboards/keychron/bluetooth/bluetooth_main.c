@@ -18,8 +18,11 @@
 #include "bluetooth.h"
 #include "transport.h"
 
+<<<<<<< HEAD:keyboards/keychron/bluetooth/bluetooth_main.c
 __attribute__((weak)) void bluetooth_pre_task(void) {}
 __attribute__((weak)) void bluetooth_post_task(void) {}
+=======
+>>>>>>> master:keyboards/fc980c/keymaps/actuation-point-example/config.h
 
 void bluetooth_tasks(void) {
     bluetooth_pre_task();

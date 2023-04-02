@@ -13,6 +13,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+<<<<<<< HEAD:keyboards/keychron/bluetooth/bluetooth_config.h
+=======
+#pragma once
+>>>>>>> master:keyboards/kbdfans/tiger80/keymaps/micros24/config.h
 
 #ifndef BLUETOOTH_CONFIG_H
 #define BLUETOOTH_CONFIG_H
